@@ -102,10 +102,10 @@
 		9A9D33E329339C130054F398 /* RPGGAME */ = {
 			isa = PBXGroup;
 			children = (
+				9AE04E112958A5200071E6AD /* GameScene */,
+				9AE04E102958A4F60071E6AD /* Map */,
 				9A9D33E429339C130054F398 /* AppDelegate.swift */,
-				9A9D33E629339C130054F398 /* GameScene.sks */,
 				9A9D33E829339C130054F398 /* Actions.sks */,
-				9A9D33EA29339C130054F398 /* GameScene.swift */,
 				9A9D33EC29339C130054F398 /* GameViewController.swift */,
 				9A9D33EE29339C130054F398 /* Main.storyboard */,
 				9A9D33F129339C140054F398 /* Assets.xcassets */,
@@ -129,6 +129,22 @@
 				9A9D340A29339C140054F398 /* RPGGAMEUITestsLaunchTests.swift */,
 			);
 			path = RPGGAMEUITests;
+			sourceTree = "<group>";
+		};
+		9AE04E102958A4F60071E6AD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D33E629339C130054F398 /* GameScene.sks */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9AE04E112958A5200071E6AD /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D33EA29339C130054F398 /* GameScene.swift */,
+			);
+			path = GameScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
