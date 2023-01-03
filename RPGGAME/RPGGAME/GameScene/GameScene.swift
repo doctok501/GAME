@@ -12,8 +12,9 @@ class GameScene: SKScene {
     
     let Player = SKSpriteNode(imageNamed: "RedSwan")
     
+    var TouchPoint = CGPoint()
     
-
+    
     
     override func didMove(to view: SKView) {
         self.addChild(Player)
